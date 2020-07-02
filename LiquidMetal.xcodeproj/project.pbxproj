@@ -11,6 +11,8 @@
 		1020856B24A68526004BC989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020856A24A68526004BC989 /* ViewController.swift */; };
 		1020856D24A68528004BC989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1020856C24A68528004BC989 /* Assets.xcassets */; };
 		1020857024A68528004BC989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1020856E24A68528004BC989 /* Main.storyboard */; };
+		1020857B24A68C4C004BC989 /* CubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020857A24A68C4C004BC989 /* CubeView.swift */; };
+		10BA7E3C24ACF1D400446EEC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 10BA7E3B24ACF1D400446EEC /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		1020856F24A68528004BC989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1020857124A68528004BC989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1020857224A68528004BC989 /* LiquidMetal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiquidMetal.entitlements; sourceTree = "<group>"; };
+		1020857A24A68C4C004BC989 /* CubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeView.swift; sourceTree = "<group>"; };
+		10BA7E3B24ACF1D400446EEC /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,8 @@
 		1020855C24A68526004BC989 = {
 			isa = PBXGroup;
 			children = (
+				1020857A24A68C4C004BC989 /* CubeView.swift */,
+				10BA7E3B24ACF1D400446EEC /* Shaders.metal */,
 				1020856724A68526004BC989 /* LiquidMetal */,
 				1020856624A68526004BC989 /* Products */,
 			);
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10BA7E3C24ACF1D400446EEC /* Shaders.metal in Sources */,
 				1020856B24A68526004BC989 /* ViewController.swift in Sources */,
 				1020856924A68526004BC989 /* AppDelegate.swift in Sources */,
+				1020857B24A68C4C004BC989 /* CubeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
